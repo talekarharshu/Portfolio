@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.class{
+    height: 400px;
+    width: 1000px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    background-image: radial-gradient(circle, rgb(252, 252, 252), rgb(227, 240, 219), rgb(206, 208, 208));
+}
+
+.left{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-right:20px ;
+}
+.left img{
+    mix-blend-mode: multiply;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+}
+
+.left button{
+    background-color: #5454f9;
+    color: rgb(246, 245, 249);
+    font-size: 1em;
+    margin-left: 35px;
+    padding: 7px;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+button:hover{
+    font-size: 18px;
+    background-color: #f5f5f9;
+    color: rgb(61, 8, 252);
+}
+
+
+.right{
+    height: 400px;
+    width: 800px;
+    padding: 20px;
+}
+.center{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.icons img{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.container2{
+    height: 650px;
+    width: 1600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.class1{
+    height: 400px;
+    width: 1000px;
+    border: 5px solid black;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    background-image: radial-gradient(circle, rgb(252, 252, 252), rgb(227, 240, 219), rgb(206, 208, 208));
+}
+
+.left1{
+    height: 100%;
+    width: 40%;
+    border: 2px solid black;
+    padding: 10px;
+    margin-right:20px ;
+}
+.left1 img{
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    mix-blend-mode: multiply;
+}
+
+.right1 button{
+    background-color: #5454f9;
+    color: rgb(246, 245, 249);
+    font-size: 1em;
+    margin: 20px;
+    margin-left: 35%;
+    padding: 7px;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+button:hover{
+    font-size: 18px;
+    background-color: #f5f5f9;
+    color: rgb(61, 8, 252);
+}
+
+
+.right1{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+.center1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.icons1 img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+.container3{
+    height: 850px;
+    width: 500px;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.class2{
+    height: 650px;
+    width: 400px;
+    border: 5px solid black;
+    background-image: radial-gradient(circle, rgb(252, 252, 252), rgb(227, 240, 219), rgb(206, 208, 208));
+}
+
+.class2 img{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 25%;
+    mix-blend-mode: multiply;
+}
+
+.class2 h1,h3,p{
+    text-align: center;
+    margin: 6px;
+}
+
+
+.icons2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons2 img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+button{
+    background-color: #5454f9;
+    color: rgb(246, 245, 249);
+    font-size: 1em;
+    margin: 5px;
+    margin-left: 30%;
+    padding: 5px;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+button:hover{
+    font-size: 18px;
+    background-color: #f5f5f9;
+    color: rgb(61, 8, 252);
+    font-weight: bold;
+}
+
+
+
+.container4{
+    height: 850px;
+    width: 500px;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.class3{
+    height: 650px;
+    width: 400px;
+    border: 5px solid black;
+    background-image: radial-gradient(circle, rgb(252, 252, 252), rgb(227, 240, 219), rgb(206, 208, 208));
+}
+
+.class3 img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 25%;
+    mix-blend-mode: multiply;
+}
+
+.class3 h1,h3,p{
+    text-align: center;
+    margin: 20px;
+
+}
+.icons3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons3 img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
